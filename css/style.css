@@ -1,0 +1,38 @@
+body {
+	background-color: #8da7a8; 
+	background-image: url('http://gokisoft.com/img/icons/web-development.jpg'); 
+	background-repeat: no-repeat; 
+	background-size: cover;
+}
+
+h3#format_text {
+	cursor: pointer; 
+	text-align: center; 
+	background-color: YELLOW;
+}
+
+h3.format_text {
+	cursor: pointer; 
+	text-align: center; 
+	background-color: YELLOW;
+}
+
+a {
+	font-size: 150%;
+	line-height: 500%;
+	background-color: BLACK;
+	color: WHITE;
+	padding-top: 30px;
+	padding-left: 50px;
+	padding-right: 100px;
+	padding-bottom: 5px;
+	margin: 30px;
+}
+
+a:hover {
+	background-color: yellow;
+}
+
+a:active {
+	background-color: red;
+}
