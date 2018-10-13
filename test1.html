@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS tutorial</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		.format-text {
+			color: RED;
+			text-align: justify;
+			text-decoration: none;
+			text-transform: capitalize;
+			word-spacing: 3px;
+			font-family: Arial, Tohoma, 'Time New Roman';
+			font-size: 10px;
+			text-indent: 10px;
+			/*border: solid 2px BLUE;*/
+			/*border-top: solid 2px BLUE;*/
+			/*border-bottom: dotted 1px RED;*/
+			border-left: solid 3px GREEN;
+			border-top-style: dotted;
+			border-top-width: 1px;
+			border-top-color: red;
+			background-color: #d9dadd;
+			padding: 10px;
+		}
+
+	textarea {
+		scrollbar-3dlight-color: #C0C0C0;
+		scrollbar-shadow-color: silver;
+		scrollbar-arrow-color: black;
+		scrollbar-face-color: red;
+		background-color: transparent;
+		border: none;
+	}
+	</style>
+</head>
+<body>
+	<textarea style="width: 100%" rows="3">Test</textarea>
+	<!-- start -->
+	<div class="format-text" style=" top: 10px; right: 0px; position: fixed; width: 100px; border: solid 1px #E4E7E7;">
+		Hướng dẫn
+	</div>
+	<!-- end --- -->
+	<!-- <div> -->
+		<img src="cars/Chevrolet2.jpg" style="width: 30px;">
+		<meter value="6" min="0" max="10" id="test">2 out of 10</meter>
+
+	<table border="1" width="100%">
+		<tr>
+			<td width="300px" height="100px" align="center" valign="top" style="background-color: yellow;">1</td>
+			<td>2</td>
+			<td colspan="3">3</td>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+			<td>3</td>
+			<td rowspan="3">3</td>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td colspan="2" rowspan="2">2</td>
+			<td>3</td>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>3</td>
+		</tr>
+	</table>
+	<!-- </div> -->
+	<!-- <div>
+		<center><img src="cars/Chevrolet2.jpg"></center>
+	</div>
+	<div style="text-align: center;">
+		<img src="cars/Chevrolet2.jpg">
+	</div> -->
+	<script type="text/javascript">
+		var value = 1;
+		setInterval(function() {
+			value++;
+			if(value > 10) {
+				value = 0
+			}
+			document.getElementById('test').value = value;
+		}, 100)
+	</script>
+</body>
+</html>

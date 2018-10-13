@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form tutorial</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<form method="post">
+		User Name : <input required title="Dien thong vao truoc khi submit" type="text" name="username" size="50" placeholder="Enter user name">
+		<br/>
+		Email : <input type="email" name="email" size="50" placeholder="Enter email">
+		<br/>
+		Password : <input type="password" name="password" size="50" placeholder="Enter password"><br/>
+		Gioi Tinh :
+		<select name="gender">
+			<option>-- Choose --</option>
+			<option value="Nam">Nam</option>
+			<option value="Nu">Nu</option>
+			<option value="Khac" selected>Khac</option>
+		</select>
+		<input type="text" name="gender" list="abc">
+		<datalist id="abc">
+			<option value="Nam"/>
+			<option value="Nu"/>
+		</datalist>
+		<input type="radio" name="gender" value="Nam">Nam
+		<input type="radio" name="gender" value="Nu">Nu
+
+		<input type="checkbox" name="gender1" value="Nam">Nam
+		<input type="checkbox" name="gender1" value="Nu">Nu
+		<br/>
+		<input type="date" name="birthday">
+		<input type="time" name="birthday">
+		<input type="color" name="birthday">
+		<br/>
+		<input type="reset" value="Reset">
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>
