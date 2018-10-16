@@ -1,0 +1,18 @@
+JavaScript (NodeJS)
+- Tìm hiểu core -> khai báo biến -> OK
+				-> Hiển thị dữ liệu ra màn hình/console -> OK
+				-> toán tử -> OK
+				-> if, else, switch -> OK
+				-> while, do..while, for
+				-> function
+				-> khai báo mảng
+				...Giống ngôn ngữ lập trình C -> đi nhanh
+- Các thành phần khác của ngôn ngữ lập trình Javascript so vs C
+				-> Một số hàm cơ bản trong JS -> ???
+				-> Tương tác lên trên tags & cấu trúc DOM
+				-> Storage (cookie & localstorage)
+				-> Canvas -> phần riêng trong lập trình game (skimming)
+
+JQuery & JavaScript
+
+- Su kien : 
