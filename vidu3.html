@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Array Tutorial</title>
+	<meta charset="utf-8">
+</head>
+<body>
+<script type="text/javascript">
+	//cach 1
+	// var student = {
+	// 	'fullname': 'Tran Van A',
+	// 	'age': 1,
+	// 	'email': 'tranvandiep.it@gmail.com',
+	// 	'address': 'nam dinh',
+	// 	'phone_number': '123'
+	// }
+	//cach 2
+	// var student = {}
+	// student.fullname = 'Tran Van A'
+	// student.age = 1
+	// document.writeln(student.age)
+	//cach 3 - khai bao mang key-value
+	// var student = []
+	// student['fullname'] = "123";
+	// document.writeln(student['fullname'])
+
+	//khai bao mang gom nhieu object
+	var studentList = [
+		{
+			'fullname': 'Tran Van A',
+			'age': 1,
+			'email': 'tranvandiep.it@gmail.com',
+			'address': 'nam dinh',
+			'phone_number': '123'
+		},{
+			'fullname': 'Tran Van B',
+			'age': 1,
+			'email': 'tranvandiep.it@gmail.com',
+			'address': 'nam dinh',
+			'phone_number': '123'
+		}
+	]
+	studentList = []
+	student = {
+			'fullname': 'Tran Van A',
+			'age': 1,
+			'email': 'tranvandiep.it@gmail.com',
+			'address': 'nam dinh',
+			'phone_number': '123'
+		}
+	studentList.push(student)
+	studentList.push(student)
+	studentList.push(student)
+	document.writeln('<br/>length : ' + studentList.length)
+	document.writeln('<br/>' + studentList[1].fullname)
+</script>
+</body>
+</html>

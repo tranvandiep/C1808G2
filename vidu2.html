@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Array Tutorial</title>
+	<meta charset="utf-8">
+</head>
+<body>
+<script type="text/javascript">
+	//khai bao mang - mang rong
+	//cach 1
+	var arr = new Array()
+	//cach 2
+	var arr2 = []
+
+	//khai bao mang khong rong
+	//cach 1
+	var arr3 = new Array(1, 2, 3, 4, 5)
+	//cach 2
+	var arr4 = [2, 3, 5, 6, 7]
+
+	//them phan tu vao trong mang
+	//cach 1
+	arr[0] = '123'
+	arr[1] = "123456789"
+	arr[10] = '1231312'
+	// for(i=0;i<10;i++) {
+	// 	arr[i] = i
+	// }
+
+	arr2[0] = "okok"
+	//cach 2
+	arr.push('xin chao')
+	arr2.push('goodbye!!!')
+
+	// document.writeln(arr[2])
+	// document.writeln(arr2[1])
+
+	//cach xoa phan tu trong mang
+	arr3.splice(1, 2);
+	arr4.splice(1, 3);
+
+	//cach duyet mang
+	// document.writeln('<br/> length = ' + arr.length)
+	// for(i=0;i<arr.length;i++) {
+	// 	if(arr[i] != undefined) {
+	// 		document.writeln("<br/>" + arr[i])
+	// 	}
+	// }
+	document.writeln('<br/> length3 = ' + arr3.length)
+	for(i=0;i<arr3.length;i++) {
+		document.writeln("<br/>" + arr3[i])
+	}
+	document.writeln('<br/> length4 = ' + arr4.length)
+	for(i=0;i<arr4.length;i++) {
+		document.writeln("<br/>" + arr4[i])
+	}
+
+</script>
+</body>
+</html>

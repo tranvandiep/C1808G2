@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PTB2 Tutorial</title>
+	<meta charset="utf-8">
+</head>
+<body>
+<input type="button" value="Nhap a" onclick="nhapA()">
+<input type="button" value="Nhap b" onclick="nhapB()">
+<input type="button" value="Nhap c" onclick="nhapC()">
+<input type="button" value="Ket Qua" onclick="ketqua()">
+<script type="text/javascript">
+	var a, b, c, x1, x2;
+
+	function nhapA() {
+		a = prompt('Nhap a')
+		a = parseFloat(a)
+	}
+
+	function nhapB() {
+		b = prompt('Nhap b')
+		b = parseFloat(b)
+	}
+
+	function nhapC() {
+		c = prompt('Nhap c')
+		c = parseFloat(c)
+	}
+
+	function ketqua() {
+		if(a == 0) {
+			if(b == 0) {
+				if(c == 0) {
+					alert('PTVSN')
+				} else {
+					alert('PTVN')
+				}
+			} else {
+				x1 = -c/b;
+				alert('Nghiem x1 = x2 = ' + x1)
+			}
+		} else {
+			var delta = b*b - 4 *a * c
+			if(delta < 0) {
+				alert('PTVN')
+			} else {
+				if(delta == 0) {
+					x1 = -b/(2*a)
+					alert('Nghiem x1 = x2 = ' + x1)
+				} else {
+					x1 = (-b + Math.sqrt(delta))/(2*a)
+					x2 = (-b - Math.sqrt(delta))/(2*a)
+					alert('Nghiem x1 = ' + x1 + '; x2 = ' + x2)
+				}
+			}
+		}
+	}
+</script>
+</body>
+</html>
